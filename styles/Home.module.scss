@@ -11,7 +11,7 @@
   padding: 5rem 0;
   flex: 1;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -75,9 +75,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   max-width: 800px;
-  margin-top: 3rem;
+  
 }
 
 .card {
@@ -114,9 +114,16 @@
   height: 1em;
 }
 
+.imgCard {
+  width: 6rem;
+  height: 6rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
 }
+
+
